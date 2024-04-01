@@ -1,0 +1,25 @@
+{
+  "name": "kanbas-react-server-app",
+  "version": "1.0.0",
+  "description": "The server for the kanbas web application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeHenderson4606/kanbas-react-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Michael Henderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeHenderson4606/kanbas-react-server-app/issues"
+  },
+  "homepage": "https://github.com/MikeHenderson4606/kanbas-react-server-app#readme"
+}
