@@ -1,10 +1,12 @@
 {
+  "type": "module",
   "name": "kanbas-react-server-app",
   "version": "1.0.0",
   "description": "The server for the kanbas web application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/MikeHenderson4606/kanbas-react-server-app/issues"
   },
-  "homepage": "https://github.com/MikeHenderson4606/kanbas-react-server-app#readme"
+  "homepage": "https://github.com/MikeHenderson4606/kanbas-react-server-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
 }
