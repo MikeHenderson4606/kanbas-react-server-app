@@ -95,7 +95,7 @@ const Lab5 = (app) => {
     });
     
     app.get("/a5/module/name/:newName", (req, res) => {
-        const { newName } = req.params;
+        const newName = req.params.newName;
         module.name = newName;
         res.json(module);
     });
